@@ -1,0 +1,128 @@
+a, img{
+    outline: none;
+}
+
+img{
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+img:focus a:focus{
+    width: 45px;
+    height: 45px;
+    transition: all 0.2s ease;
+}
+
+a:hover img:hover{
+    margin-top: -0.1px;
+    width: 45px;
+    height: 45px;
+    transition: all 0.2s ease;
+}
+
+.image{
+   display: flex;
+   justify-content: center;
+   margin-top: 5rem;
+   outline: none;
+}
+
+#title_footer{
+    color: white;
+}
+
+#footer{
+    background-color: rgb(35, 35, 35);
+}
+
+#info{
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+}
+
+input{
+    font-family: Segoe UI;
+    font-weight: 550;
+}
+
+input, textarea{
+    width: 36rem;
+    height: 3rem;
+    font-size: 16px;
+    border-radius: 11px;
+    border: 3px solid rgb(48, 48, 48);
+    text-indent: 15px;
+    background-color: rgb(48, 48, 48);
+    caret-color: white;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(108, 108, 108);
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 3px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+#contact{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 600px;
+}
+
+.input_label{
+    margin-top: 2rem;
+}
+
+.input_label p{
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+textarea::placeholder{
+    vertical-align: bottom;
+}
+
+#button{   
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+button{
+    width: 140px;
+    height: 55px;
+    border-radius: 11px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Segoe UI';
+    background-color: rgb(85, 135, 228);
+    color: white;
+    border: 3px solid rgb(35, 35, 35);
+    outline: none;
+}
+
+button:focus{
+    border: 3px solid white;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    border: 3px solid white;
+    transition: all 0.3s ease;
+}
