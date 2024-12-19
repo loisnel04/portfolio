@@ -59,13 +59,13 @@ export default function Footer() {
             </form>
 
             <div className="image">
-                <div className="oneImg">
+                <div className="oneImg linkedin_logo" >
                     <a href="https://www.linkedin.com/in/lo%C3%AFs-isnel-b54b4b209/" target="_blank" rel="noreferrer"><img src={linkedin_logo} className="App-logo" alt="Linkedin's logo" /></a>
                 </div>
-                <div className="oneImg">
+                <div className="oneImg github_logo">
                     <a href="https://github.com/loisnel04" target="_blank" rel="noreferrer"><img src={git_logo} className="App-logo" alt="Github's logo" /></a>
                 </div>
-                <div className="oneImg">    
+                <div className="oneImg mail_logo">    
                     <a href='mailto:lois.isnel@gmail.com'><img src={mail} className="App-logo" alt="Mail's contact" /></a>
                 </div>
             </div>

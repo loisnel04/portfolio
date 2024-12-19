@@ -8,6 +8,11 @@
     transition: all 0.2s ease;
 }
 
+.linkedin_logo img{
+    filter: brightness(0);
+    transition: all 0.2s ease;
+}
+
 a, img{
     outline: none;
 }
@@ -16,18 +21,36 @@ img{
     width: 30px;
     height: 30px;
     margin: 10px;
+    transition: all 0.2s ease;
 }
 
-.oneImg:focus{
+.oneImg:focus, .oneImg:hover{
     transition: all 0.2s ease;
     transform: scale(1.2);
-    box-shadow: 0px 0px 5px aliceblue;
 }
 
-.oneImg:hover{
-    transition: all 0.2s ease;
-    transform: scale(1.2);
-    box-shadow: 0px 0px 5px aliceblue;
+.linkedin_logo:focus, .linkedin_logo:hover{
+    box-shadow: 0px 0px 5px rgb(22, 113, 249);
+    background-color: rgb(22, 113, 249);
+    img{
+        filter:brightness(0) invert(1);
+    }
+}
+
+.github_logo:focus, .github_logo:hover{
+    box-shadow: 0px 0px 5px black;
+    background-color: black;
+    img{
+        filter:invert(1);
+    }
+}
+
+.mail_logo:hover, .mail_logo:focus{
+    box-shadow: 0px 0px 5px orangered;
+    background-color: orangered;
+    img{
+        filter:invert(1);
+    }
 }
 
 .image{
