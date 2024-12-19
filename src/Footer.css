@@ -1,26 +1,33 @@
+.oneImg{
+    background-color:aliceblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+
 a, img{
     outline: none;
 }
 
 img{
-    border-radius: 50%;
-    background-color: white;
-    width: 40px;
-    height: 40px;
-    margin: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }
 
-img:focus a:focus{
-    width: 45px;
-    height: 45px;
+.oneImg:focus{
     transition: all 0.2s ease;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px aliceblue;
 }
 
-a:hover img:hover{
-    margin-top: -0.1px;
-    width: 45px;
-    height: 45px;
+.oneImg:hover{
     transition: all 0.2s ease;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px aliceblue;
 }
 
 .image{
@@ -48,22 +55,27 @@ a:hover img:hover{
 
 textarea{
     resize: none;
+    height: 6rem;
+    padding: 15px;
+    width: 34.3rem;
 }
 
 input{
     font-family: Segoe UI;
     font-weight: 550;
+    height: 3rem;
+    text-indent: 15px;
+    width: 36rem;
 }
 
 input, textarea{
-    width: 36rem;
-    height: 3rem;
     font-size: 16px;
     border-radius: 11px;
     border: 3px solid rgb(48, 48, 48);
-    text-indent: 15px;
     background-color: rgb(48, 48, 48);
     caret-color: white;
+    color: white;
+    transition: all 0.2s ease;
 }
 
 input::placeholder, textarea::placeholder{
@@ -73,7 +85,7 @@ input::placeholder, textarea::placeholder{
 input:focus, textarea:focus{
     outline: none;
     border: 3px solid rgb(255, 255, 255);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 #contact{
@@ -105,24 +117,33 @@ textarea::placeholder{
 }
 
 button{
-    width: 140px;
-    height: 55px;
+    width: 120px;
+    height: 50px;
     border-radius: 11px;
     font-size: 20px;
     font-weight: 700;
     font-family:'Segoe UI';
-    background-color: rgb(85, 135, 228);
+    background-color: rgb(52, 112, 224);
     color: white;
     border: 3px solid rgb(35, 35, 35);
     outline: none;
+    transition: all 0.2s ease;
 }
 
 button:focus{
-    border: 3px solid white;
-    transition: all 0.3s ease;
+    background-color: rgb(26, 94, 222);
+    transition: all 0.2s ease;
+    transform: scale(1.05);
 }
 
 button:hover{
-    border: 3px solid white;
-    transition: all 0.3s ease;
+    background-color: rgb(26, 94, 222);
+    transition: all 0.2s ease;
+    transform: scale(1.05); 
+}
+
+input:invalid::-webkit-validation-bubble {
+    color: #dc0404;
+    font-size: 14px;
+    background-color: yellow;
 }
