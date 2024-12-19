@@ -22,10 +22,10 @@ header h3{
 }
 
 #first_bar {
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Centers items initially */
-    align-items: center; /* Vertically centers the items */
-    position: relative; /* Enables absolute positioning for the h2 */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
 }
 
 #first_bar h1{
@@ -34,8 +34,21 @@ header h3{
 }
 
 #first_bar h2{
-    position: absolute;
     left: 4rem;
+}
+
+#first_bar img{
+    width: 50px;
+    height: 30px;
+    right: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#first_bar img:hover, #first_bar img:focus{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px aliceblue;
+    transition: all 0.2s ease;
 }
 
 #myself{
@@ -52,8 +65,7 @@ header h3{
 }
 
 #myself img{
-    position: absolute;
-    right: 320px;
+    margin-left: 70rem;
     transform: scale(12);
     border-radius: 50%;
     box-shadow: 0 0 6px #28029c;

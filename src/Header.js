@@ -1,12 +1,21 @@
 import './Header.css'
 import computer from "./img/logo_header.avif"
+import france_flag from "./img/drapeau-france.png"
+import english_flag from "./img/drapeau-anglais.png"
 
 export default function Header() {
+    const handleLangue = () => {
+
+    }
     return(
         <header>
             <div id="first_bar">
                 <h2>Isnel Loïs</h2>
                 <h1>Portfolioïs</h1>
+                <div id="img">
+                    <img src={france_flag} alt="france flag" onClick={handleLangue}></img>
+                    <img src={english_flag} alt="english flag" onClick={handleLangue}></img>
+                </div>
             </div>
             
             <div id="myself">
