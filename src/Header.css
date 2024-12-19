@@ -4,6 +4,8 @@ header{
     font-size: 18px;
     color: azure;
     transition: all 0.2 ease;
+    border-bottom-right-radius: -25%;
+    border-bottom-left-radius: -25%;
 }
 
 header h1{
@@ -78,7 +80,39 @@ header h3{
     transition: all 0.2 ease;
 }
 
-#myself a:hover{
-    text-shadow: 0 0 1.5px #0091d3;
+#myself a:hover, #myself a:focus{
+    text-shadow: 0 0 2px #0091d3;
     transition: all 0.2 ease;
 }
+
+header button{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 11px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Segoe UI';
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border: 3px solid rgb(35, 35, 35);
+    outline: none;
+    transition: all 0.2s ease;
+    padding-top: 8px;
+    padding-left: 15px;
+    margin-left: 3rem;
+}
+
+header button:hover, header button:focus{
+    transform: scale(1.1);
+    background-color: rgb(55, 55, 55);
+    transition: all 0.2 ease;
+}
+
+header button img{
+    filter: brightness(0) invert(1);
+    margin-top: 0;
+    margin-left: 1rem;
+}
+

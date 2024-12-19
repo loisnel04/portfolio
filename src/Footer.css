@@ -133,13 +133,13 @@ textarea::placeholder{
     vertical-align: bottom;
 }
 
-#button{   
+#footer #button{   
     display: flex;
     justify-content: center;
     margin-top: 3rem;
 }
 
-button{
+#footer button{
     width: 120px;
     height: 50px;
     border-radius: 11px;
@@ -153,20 +153,14 @@ button{
     transition: all 0.2s ease;
 }
 
-button:focus{
+#footer button:focus{
     background-color: rgb(26, 94, 222);
     transition: all 0.2s ease;
     transform: scale(1.05);
 }
 
-button:hover{
+#footer button:hover{
     background-color: rgb(26, 94, 222);
     transition: all 0.2s ease;
     transform: scale(1.05); 
-}
-
-input:invalid::-webkit-validation-bubble {
-    color: #dc0404;
-    font-size: 14px;
-    background-color: yellow;
 }
