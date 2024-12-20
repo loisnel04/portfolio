@@ -4,6 +4,7 @@ header{
     font-size: 18px;
     color: azure;
     transition: all 0.2 ease;
+    margin-bottom: 3rem;
     /*box-shadow: 0 0 20px rgb(0, 0, 0); à voir si je mets sans en box shadow ou le body*/
 }
 
@@ -93,9 +94,9 @@ header button{
     font-size: 20px;
     font-weight: 700;
     font-family:'Segoe UI';
-    background-color: rgb(70, 70, 70);
+    background-color: #3c17bf;
     color: white;
-    border: 3px solid rgb(35, 35, 35);
+    border: 3px solid rgb(34, 34, 34);
     outline: none;
     transition: all 0.2s ease;
     padding-top: 8px;
@@ -110,7 +111,7 @@ header button{
 
 header button:hover, header button:focus{
     transform: scale(1.1);
-    background-color: rgb(55, 55, 55);
+    background-color: #23009f;
     transition: all 0.2 ease;
 }
 

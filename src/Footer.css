@@ -173,21 +173,15 @@ textarea::placeholder{
     font-size: 20px;
     font-weight: 700;
     font-family:'Segoe UI';
-    background-color: rgb(52, 112, 224);
+    background-color: #6b0af8;
     color: white;
     border: 3px solid rgb(35, 35, 35);
     outline: none;
     transition: all 0.2s ease;
 }
 
-#footer button:focus{
-    background-color: rgb(26, 94, 222);
+#footer button:focus, #footer button:hover{
+    background-color: #23009f;
     transition: all 0.2s ease;
     transform: scale(1.05);
-}
-
-#footer button:hover{
-    background-color: rgb(26, 94, 222);
-    transition: all 0.2s ease;
-    transform: scale(1.05); 
 }
