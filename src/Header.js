@@ -27,12 +27,13 @@ export default function Header() {
                 <p>I really love computer science, and science in general. My goal is to learn more of it and working to create software which help people.</p>
             </div>
             <div id="download_button">
-                <button source={download}>My CV<img src={download} alt="Download"></img></button>
+                <a href="./Loïs Isnel.pdf" download="Loïs Isnel CV.pdf" tabIndex="-1">
+                    <button source={download}>My CV<img src={download} alt="Download" download="./Loïs Isnel.pdf"></img></button>
+                </a>
             </div>
             <br></br>
             <br></br>
-            <br></br>
-            <br></br>
+
         </header>
     )
 }
