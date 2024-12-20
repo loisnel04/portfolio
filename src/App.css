@@ -42,3 +42,7 @@ h1{
   display: flex;
   justify-content: center;
 }
+
+.App{
+  background-color: rgb(35, 35, 35);
+}
