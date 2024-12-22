@@ -109,7 +109,7 @@ export default function Body() {
                     <img src={zoidberg} alt="IA project, Zoidberg 2.0"></img>
                     <div className="oneProject">
                         <h3>Zoidberg 2.0</h3>
-                        <p>IA's development to classify x-ray pictures as sickness or healthy lungs</p>
+                        <p>IA's development to classify x-ray pictures as sickness or healthy lungs.</p>
                         <p>Technologies: Python, Jupyter</p>
                     </div>
                 </div>
@@ -118,7 +118,8 @@ export default function Body() {
                     <img src={cryptech} alt="Big Data project, Cryptech"></img>
                     <div className="oneProject">
                         <h3>Cryptech</h3>
-                        <p></p>
+                        <p>Big Data managing, scrapping of crypto-coins add charts display.</p>
+                        <p>Technologies: React.js, Express.js, Docker</p>
                     </div>
                 </div>
 
@@ -126,7 +127,8 @@ export default function Body() {
                     <img src={epicroadtrip} alt="Web project, EpicRoadTrip"></img>
                     <div className="oneProject">
                         <h3>EpicRoadTrip</h3>
-                        <p>Journey planifier </p>
+                        <p>Journey planifier using an API tools. We also create test to recover 80% of the Back-end.</p>
+                        <p>Technologies: Angular.ts, Jest</p>
                     </div>
                 </div>
             </div>
