@@ -1,2 +1,2 @@
-#échanger les couleurs des images en bas lorsque l'on passe dessus
-#Trouver une idée pour afficher mes technologies et systèmes d'exploitations
+#Créer unne navbar
+#Trouver un moyen de faire une animation de changement de texte (fondu de texte)
