@@ -7,6 +7,7 @@ import vscode from "./img/vscode.png"
 import linux from "./img/Linux.png"
 import github from "./img/github.png"
 import jupyter from "./img/Jupyter.png"
+import angular from "./img/angular.png"
 import micado from "./img/afmicado_logo.png"
 import study from "./img/study.png"
 import BNP from "./img/BNP-Paribas-Logo.png"
@@ -14,6 +15,14 @@ import Macdo from "./img/Logo_France_Mcdo.png"
 import code from "./img/code.png"
 import work from "./img/programmation.png"
 import projet from "./img/projet.png"
+
+import epitech from "./img/Epitech.png" 
+import lycee from "./img/sisteron.png"
+import feg from "./img/feg.png"
+
+import epicroadtrip from "./img/EpicRoadTrip.png"
+import zoidberg from "./img/zoidberg.png"
+import cryptech from "./img/crypto.webp"
 
 export default function Body() {
     return(
@@ -29,6 +38,7 @@ export default function Body() {
                     <img src={linux} alt="Linux"></img>
                     <img src={github} alt="Github"></img>
                     <img src={jupyter} alt="Jupyter"></img>
+                    <img src={angular} alt="Angular"></img>
                 </div>
             </div>
             
@@ -36,16 +46,25 @@ export default function Body() {
             <div className="content">
                 <div className="school">
                     <div className="oneStudy">
+                        <img src={lycee} alt="Lycée Paul Arène"></img>
                         <h3>Sociologic and Economic</h3> 
-                        <span>Baccalaureate - 2020</span>
+                        <span>Baccalaureate at Sisteron Paul Arène School City - 2020</span>
                     </div>
+                </div>
+
+                <div className="school">
                     <div className="oneStudy">
+                        <img src={feg} alt="FEG"></img>
                         <h3>Mathematic and Informatic apply to Human and Social Sciences</h3>
-                        <span> Bachelor's degree - 2023</span>
+                        <span> Bachelor's degree at Aix-en-Provence Faculty of Economic and Managing (FEG) - 2023</span>
                     </div>
+                </div>
+
+                <div className="school">
                     <div className="oneStudy">
+                        <img src={epitech} alt="Epitech"></img>
                         <h3>Software architect, application developper MSc</h3>
-                        <span> Master's degree - 2025</span>
+                        <span> Master's degree at Marseille Epitech - 2025</span>
                     </div>
                 </div>
             </div>
@@ -56,6 +75,9 @@ export default function Body() {
                     <img src={micado} alt="Micado"></img>
                     <div className="oneJob">
                         <h3>Alternetly technician developper</h3>
+                        <p>Since 2024 February to now</p>
+                        <p>Work : Development, deployment and monitoring of applications, creation of specifications loads Big Data, model design, creation and management of databases, web site development, Big Data</p>
+                        <p>Technologies: Windev, Python, Linux, VScode</p>
                     </div>
                 </div>
 
@@ -63,7 +85,10 @@ export default function Body() {
                     <img src={BNP} alt="BNP Paribas"></img>
                     <div className="oneJob">
                         <h3>Internship</h3>
-                        <p>test</p>
+                        <p>2023 April - May</p>
+                        <p>Classification and archiving of data/documents, computer processing,
+                        document digitization, in charge of reception missions, reminders and follow-up
+                        files, digitalization</p>
                     </div>
                 </div>
 
@@ -71,13 +96,39 @@ export default function Body() {
                     <img src={Macdo} alt="Macdonald's"></img>  
                     <div className="oneJob">
                         <h3>Polyvant Employee</h3>
+                        <p>2023 December - 2024 January / 2023 July / 2023 March - August</p>
+                        <p>Preparing and serving orders to customers on time, cleaning and
+                        storage of utensils, machines and place, closure of the restaurant</p>
                     </div>
                 </div>
             </div>
 
             <h2><img src={projet} alt="Projet"></img>My projects</h2>
             <div className="content">
+                <div className="project">
+                    <img src={zoidberg} alt="IA project, Zoidberg 2.0"></img>
+                    <div className="oneProject">
+                        <h3>Zoidberg 2.0</h3>
+                        <p>IA's development to classify x-ray pictures as sickness or healthy lungs</p>
+                        <p>Technologies: Python, Jupyter</p>
+                    </div>
+                </div>
 
+                <div className="project">
+                    <img src={cryptech} alt="Big Data project, Cryptech"></img>
+                    <div className="oneProject">
+                        <h3>Cryptech</h3>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <img src={epicroadtrip} alt="Web project, EpicRoadTrip"></img>
+                    <div className="oneProject">
+                        <h3>EpicRoadTrip</h3>
+                        <p>Journey planifier </p>
+                    </div>
+                </div>
             </div>
         </div>
     )

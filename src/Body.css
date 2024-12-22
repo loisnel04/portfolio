@@ -96,6 +96,7 @@
     background-color: rgb(35, 35, 35);
     font-size: 18px;
     color: azure;
+    margin-bottom: 5rem;
 }
 
 #body h2{
@@ -149,26 +150,31 @@
     justify-content: center;
 }
 
-.job, .school{
+.job, .school, .project{
     display: inline-block;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(57, 57, 57);
     width: 25rem;
     border-radius: 20px;
     box-shadow: 0 0 30px rgb(215, 239, 255);
     margin: 1rem 2rem;
 
-    .oneStudy, .oneJob{
+    .oneStudy, .oneJob, .oneProject{
         margin: 20px;
     }
 
     h3, span{
         display: inline-block;
-        font-size: 22px;
         margin: 0;
+    }
+
+    span{
+        margin-top: 10px;
+        font-size: 18px;
     }
 
     h3{
         font-weight: 800;
+        font-size: 22px;
     }
 
     img{
@@ -189,4 +195,27 @@
 .job h3{
     display: flex;
     justify-content: center;
+}
+
+.oneStudy{
+        img{
+        width: auto;
+        height: 130px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.project{
+    img{
+        width: auto;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 20%;
+    }
 }
