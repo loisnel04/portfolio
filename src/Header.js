@@ -3,13 +3,15 @@ import computer from "./img/logo_header.avif"
 import france_flag from "./img/drapeau-france.png"
 import english_flag from "./img/drapeau-anglais.png"
 import download from './img/download.webp'
-import React, {useState} from 'react'
+import React, {useContext} from 'react'
+import {ToggleLanguage} from './toggleLanguage'
 
 export default function Header() {
-    const [language, setLanguage] = useState('English')
+    const {language, setLanguage} = useContext(ToggleLanguage)
     const handleLangue = (lang) => {
         setLanguage(lang);
     }
+
     return(
         <header>
             <div id="first_bar">

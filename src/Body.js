@@ -24,7 +24,11 @@ import epicroadtrip from "./img/EpicRoadTrip.png"
 import zoidberg from "./img/zoidberg.png"
 import cryptech from "./img/crypto.webp"
 
+import {ToggleLanguage} from "./toggleLanguage"
+import { useContext } from "react"
+
 export default function Body() {
+    const {language} = useContext(ToggleLanguage)
     return(
         <div id="body">
             <h2><img src={code} alt="code"></img>Technologies</h2>
@@ -84,8 +88,8 @@ export default function Body() {
                 <div className="job">
                     <img src={BNP} alt="BNP Paribas"></img>
                     <div className="oneJob">
-                        <h3>Internship</h3>
-                        <p>2023 April - May</p>
+                        <h3>{language==='French' ? "Stage" : "Internship"}</h3>
+                        <p>{language==='French' ? "Avril - Mai 2023" : "2023 April - May"}</p>
                         <p>Classification and archiving of data/documents, computer processing,
                         document digitization, in charge of reception missions, reminders and follow-up
                         files, digitalization</p>
