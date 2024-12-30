@@ -11,7 +11,6 @@ function App() {
       <div id="header">
         <Header />
       </div>
-      <div className="separator"></div>
       <Navbar />
       <div className="separator"></div>
       <Body />

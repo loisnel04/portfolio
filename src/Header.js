@@ -43,7 +43,6 @@ export default function Header() {
                 </a>
             </div>
             <br></br>
-            <br></br>
 
         </header>
     )
