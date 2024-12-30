@@ -3,17 +3,24 @@ import computer from "./img/logo_header.avif"
 import france_flag from "./img/drapeau-france.png"
 import english_flag from "./img/drapeau-anglais.png"
 import download from './img/download.webp'
-import React, {useContext} from 'react'
+import React, {useContext, useState} from 'react'
 import {ToggleLanguage} from './toggleLanguage'
 
 export default function Header() {
     const {language, setLanguage} = useContext(ToggleLanguage)
+    const [fade, setFade] = useState(false)
     const handleLangue = (lang) => {
-        setLanguage(lang);
+        if (language !== lang) {
+            setFade(true)
+            setTimeout(() => {
+                setLanguage(lang);
+                setFade(false);
+            }, 500);
+        }
     }
 
     return(
-        <header>
+        <header className={`${fade ? 'fade-out' : 'fade-in'}`}  >
             <div id="first_bar">
                 <h2>Isnel Loïs</h2>
                 <h1>Portfolioïs</h1>
