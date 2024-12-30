@@ -53,3 +53,7 @@ h1{
     margin-right: auto;
   }
 }
+
+* {
+  scroll-behavior: smooth;
+}
