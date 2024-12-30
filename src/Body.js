@@ -31,6 +31,10 @@ export default function Body() {
     const {language} = useContext(ToggleLanguage)
     return(
         <div id="body">
+
+            <div id="Technologies"></div>
+            <br></br>
+
             <h2><img src={code} alt="code"></img>Technologies</h2>
             <div id="scroll-container">
                 <div id="language">
@@ -46,6 +50,9 @@ export default function Body() {
                 </div>
             </div>
             
+            <div id="Studies"></div>
+            <br></br>
+
             <h2><img src={study} alt="Studies"></img>Studies</h2>
             <div className="content">
                 <div className="school">
@@ -72,6 +79,9 @@ export default function Body() {
                     </div>
                 </div>
             </div>
+
+            <div id="Work"></div>
+            <br></br>
 
             <h2><img src={work} alt="work"></img>Work experiency</h2>
             <div className="content">
@@ -107,6 +117,9 @@ export default function Body() {
                 </div>
             </div>
 
+            <div id="Project"></div>
+            <br></br>
+
             <h2><img src={projet} alt="Projet"></img>My projects</h2>
             <div className="content">
                 <div className="project">
@@ -136,6 +149,7 @@ export default function Body() {
                     </div>
                 </div>
             </div>
+            <div id="nav_to_footer"></div>
         </div>
     )
 }
