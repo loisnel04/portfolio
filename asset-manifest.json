@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3cb5bc67.css",
+    "main.js": "/portfolio/static/js/main.e1e390b3.js",
+    "static/media/BNP-Paribas-Logo.png": "/portfolio/static/media/BNP-Paribas-Logo.596c9cf76b023f542f7b.png",
+    "static/media/zoidberg.png": "/portfolio/static/media/zoidberg.55cfcde69070dce6d59b.png",
+    "static/media/angular.png": "/portfolio/static/media/angular.aae8c6b1f4b3896f9e20.png",
+    "static/media/web.webp": "/portfolio/static/media/web.41e8c0eea442d8da00ad.webp",
+    "static/media/Epitech.png": "/portfolio/static/media/Epitech.154df79bbd67522023ad.png",
+    "static/media/Linux.png": "/portfolio/static/media/Linux.b1bd38d8ac9531039ec6.png",
+    "static/media/LinkedIn_icon.svg.png": "/portfolio/static/media/LinkedIn_icon.svg.8bcc85f816de7e973275.png",
+    "static/media/EpicRoadTrip.png": "/portfolio/static/media/EpicRoadTrip.866dad2a4e62d8281ce1.png",
+    "static/media/afmicado_logo.png": "/portfolio/static/media/afmicado_logo.667698c2342af7d44009.png",
+    "static/media/study.png": "/portfolio/static/media/study.35d5202064bbb9cec782.png",
+    "static/media/projet.png": "/portfolio/static/media/projet.9926afda780608f91457.png",
+    "static/media/Jupyter.png": "/portfolio/static/media/Jupyter.3274ea14f0dc3b322f42.png",
+    "static/media/feg.png": "/portfolio/static/media/feg.5874ee8c10e1572821bc.png",
+    "static/media/contact.png": "/portfolio/static/media/contact.babc890bf0779ce1cba2.png",
+    "static/media/logo_header.avif": "/portfolio/static/media/logo_header.497296fa324e8fa86467.avif",
+    "static/media/crypto.webp": "/portfolio/static/media/crypto.e4a2db353ee1eef61ebf.webp",
+    "static/media/programmation.png": "/portfolio/static/media/programmation.c29ef1f335e5f30001d8.png",
+    "static/media/reactjs.webp": "/portfolio/static/media/reactjs.2bf5000b012710453e82.webp",
+    "static/media/download.webp": "/portfolio/static/media/download.b7e1c235aff6e43e6f37.webp",
+    "index.html": "/portfolio/index.html",
+    "main.3cb5bc67.css.map": "/portfolio/static/css/main.3cb5bc67.css.map",
+    "main.e1e390b3.js.map": "/portfolio/static/js/main.e1e390b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cb5bc67.css",
+    "static/js/main.e1e390b3.js"
+  ]
+}
