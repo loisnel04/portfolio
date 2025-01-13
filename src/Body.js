@@ -25,10 +25,31 @@ import zoidberg from "./img/zoidberg.png"
 import cryptech from "./img/crypto.webp"
 
 import {ToggleLanguage} from "./toggleLanguage"
-import { useContext } from "react"
+import { useContext, useEffect, useState, useRef } from "react"
 
 export default function Body() {
     const {language} = useContext(ToggleLanguage)
+    const [isVisible, setIsVisible] = useState(false)
+    const sectionRef = useRef(null)
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true)
+                    observer.unobserve(entry.target)
+                }
+            },
+            {threshold: 0.1}
+        )
+
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current)
+        }
+
+        return () => observer.disconnect()
+    }, []);
+
     return(
         <div id="body">
 
@@ -54,7 +75,7 @@ export default function Body() {
             <br></br>
 
             <h2><img src={study} alt="Studies"></img>Studies</h2>
-            <div className="content">
+            <div ref={sectionRef} className={`content fade-in-section ${isVisible ? "visible":""}`}>
                 <div className="school">
                     <div className="oneStudy">
                         <img src={lycee} alt="Lycée Paul Arène"></img>
@@ -84,7 +105,7 @@ export default function Body() {
             <br></br>
 
             <h2><img src={work} alt="work"></img>Work experiency</h2>
-            <div className="content">
+            <div className={`content fade-in-section ${isVisible ? "visible":""}`}>
                 <div className="job">
                     <img src={micado} alt="Micado"></img>
                     <div className="oneJob">
@@ -121,7 +142,7 @@ export default function Body() {
             <br></br>
 
             <h2><img src={projet} alt="Projet"></img>My projects</h2>
-            <div className="content">
+            <div className={`content fade-in-section ${isVisible ? "visible":""}`}>
                 <div className="project">
                     <img src={zoidberg} alt="IA project, Zoidberg 2.0"></img>
                     <div className="oneProject">
