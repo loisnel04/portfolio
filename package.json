@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://loisnel04.github.io/portfoliois",
+  "homepage": "https://loisnel04.github.io/portfolio",
   "dependencies": {
     "cra-template": "1.2.0",
     "emailjs-com": "^3.2.0",
