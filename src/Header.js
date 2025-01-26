@@ -38,7 +38,7 @@ export default function Header() {
                 <p>{language==='English' ? "I really love computer science, and science in general. My goal is to learn more of it and working to create software which help people." : "J'aime énormément les sciences de l'informatique, et les sciences en général. Mon objectif est d'apprendre plus, et de travailler pour créer des logiciels qui aideront les gens. "}</p>
             </div>
             <div id="download_button">
-                <a href="./Loïs Isnel.pdf" download="./lois_isnel.pdf" tabIndex="-1">
+                <a href="./lois_isnel.pdf" download="./lois_isnel.pdf" tabIndex="-1">
                     <button source={download}>{language==='English' ? "My CV" : "Mon CV"}<img src={download} alt="Download" download="./Loïs Isnel.pdf"></img></button>
                 </a>
             </div>
