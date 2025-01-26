@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3cb5bc67.css",
-    "main.js": "/portfolio/static/js/main.0dd35ccd.js",
+    "main.js": "/portfolio/static/js/main.e956f26e.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/BNP-Paribas-Logo.png": "/portfolio/static/media/BNP-Paribas-Logo.596c9cf76b023f542f7b.png",
     "static/media/zoidberg.png": "/portfolio/static/media/zoidberg.55cfcde69070dce6d59b.png",
@@ -24,11 +24,11 @@
     "static/media/download.webp": "/portfolio/static/media/download.b7e1c235aff6e43e6f37.webp",
     "index.html": "/portfolio/index.html",
     "main.3cb5bc67.css.map": "/portfolio/static/css/main.3cb5bc67.css.map",
-    "main.0dd35ccd.js.map": "/portfolio/static/js/main.0dd35ccd.js.map",
+    "main.e956f26e.js.map": "/portfolio/static/js/main.e956f26e.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cb5bc67.css",
-    "static/js/main.0dd35ccd.js"
+    "static/js/main.e956f26e.js"
   ]
 }
