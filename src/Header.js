@@ -39,7 +39,7 @@ export default function Header() {
             </div>
             <div id="download_button">
                 <a href="./lois_isnel.pdf" download="./lois_isnel.pdf" tabIndex="-1">
-                    <button source={download}>{language==='English' ? "My CV" : "Mon CV"}<img src={download} alt="Download" download="./lois_isnel.pdf"></img></button>
+                    <button source={download}>{language==='English' ? "Ta pute de mère le cv" : "Mon CV"}<img src={download} alt="Download" download="./lois_isnel.pdf"></img></button>
                 </a>
             </div>
             <br></br>
