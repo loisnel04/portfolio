@@ -5,6 +5,7 @@ import english_flag from "./img/drapeau-anglais.png"
 import download from './img/download.webp'
 import React, {useContext, useState} from 'react'
 import {ToggleLanguage} from './toggleLanguage'
+import CV from "./lois_isnel.pdf"
 
 export default function Header() {
     const {language, setLanguage} = useContext(ToggleLanguage)
@@ -34,13 +35,13 @@ export default function Header() {
                 <h3>{language==='French' ? "Bienvenue" : "Welcome"}.</h3>
                 <img src={computer} alt="computer"></img>
                 <p>{language==='English' ? "My name is Loïs Isnel, i am a young developper, studying at" : "Je m'appelle Loïs, je suis un jeune développeur étudiant à "} <a href="https://www.epitech.eu/ecole-informatique-marseille/" target="_blank" rel="noreferrer">Marseille Epitech</a> {language==='French' ? 'et alternant dans l\'entreprise' : 'and alternating at'} <a href="https://afmicado.com/" target="_blank" rel="noreferrer">Micado {language==="English" ? "company" : ""}</a>.</p>
-                <p>{language==='English' ? "I learn AI, web/Application development, and Big Data to become a IT engineer in one of this domain." : "J'apprends le développement d'IA, de site web et d'application et le Big Data pour devenir un ingénieur informatique dans l'un de ces domaines"}</p>
-                <p>{language==='English' ? "I really love computer science, and science in general. My goal is to learn more of it and working to create software which help people." : "J'aime énormément les sciences de l'informatique, et les sciences en général. Mon objectif est d'apprendre plus, et de travailler pour créer des logiciels qui aideront les gens. "}</p>
+                <p>{language==='English' ? "I learn AI, web/Application development, and Big Data to become a IT engineer in one of this domain." : "J'apprends le développement d'IA, de site web et d'application et le Big Data pour devenir un ingénieur informatique dans l'un de ces domaines."}</p>
+                <p>{language==='English' ? "I really love computer science, and science in general. My goal is to use my knowledges and competencies in computer science in medicine. Because i like helping people, and i want to work for it, make people feels better." : "J'aime énormément l'informatique, et les sciences en général. Mon objectif est d'utiliser mes connaissances et mes compétences en informatique pour la médecine. Parceque j'aime aider les personnes, et je veux aider dans ce but, aider les personnes à se sentir mieux."}</p>
             </div>
             <div id="download_button">
-                <a href="/lois_isnel.pdf" download="lois_isnel.pdf" tabIndex="-1">
-                    <button source={download}>{language==='English' ? "My CV" : "Mon CV"}<img src={download} alt="Download" download="lois_isnel.pdf"></img></button>
-                </a>
+            <a href={CV} download="lois_isnel.pdf" tabIndex="-1">
+                <button>{language === 'English' ? "My CV" : "Mon CV"} <img src={download} alt="Download" /></button>
+            </a>
             </div>
             <br></br>
 
