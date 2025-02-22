@@ -96,7 +96,7 @@ export default function Body() {
                     <div className="oneStudy">
                         <img src={epitech} alt="Epitech"></img>
                         <h3>{language==='French'?'Master MSc':"Master's Degree MSc"} (2025)</h3>
-                        <span>{language==='French'?"Architecte logiciel, développeur d'application, spécialité Big Data et IA - ":'Software architect, application developper, Big Data and IA speciality - '}Epitech Marseille</span>
+                        <span>{language==='French'?"Architecte logiciel, développeur d'application, spécialité Big Data et IA - ":'Software architect, application developper, Big Data and AI speciality - '}Epitech Marseille</span>
                     </div>
                 </div>
             </div>
