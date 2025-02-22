@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3cb5bc67.css",
-    "main.js": "/portfolio/static/js/main.cda030cf.js",
+    "main.css": "/portfolio/static/css/main.91d37f2f.css",
+    "main.js": "/portfolio/static/js/main.ae2331e4.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Lois_Isnel_CV_EN.pdf": "/portfolio/static/media/Lois_Isnel_CV_EN.79303321b2907d828d81.pdf",
     "static/media/lois_isnel.pdf": "/portfolio/static/media/lois_isnel.57e5294181723be52cc5.pdf",
@@ -27,12 +27,12 @@
     "static/media/Python.webp": "/portfolio/static/media/Python.d7914eabafafb1c9be1e.webp",
     "static/media/download.webp": "/portfolio/static/media/download.b7e1c235aff6e43e6f37.webp",
     "index.html": "/portfolio/index.html",
-    "main.3cb5bc67.css.map": "/portfolio/static/css/main.3cb5bc67.css.map",
-    "main.cda030cf.js.map": "/portfolio/static/js/main.cda030cf.js.map",
+    "main.91d37f2f.css.map": "/portfolio/static/css/main.91d37f2f.css.map",
+    "main.ae2331e4.js.map": "/portfolio/static/js/main.ae2331e4.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cb5bc67.css",
-    "static/js/main.cda030cf.js"
+    "static/css/main.91d37f2f.css",
+    "static/js/main.ae2331e4.js"
   ]
 }
