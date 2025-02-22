@@ -1,0 +1,2 @@
+Pour ré actualiser le site web avec les nouveaux push :
+npm run deploy

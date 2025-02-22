@@ -6,6 +6,7 @@ import download from './img/download.webp'
 import React, {useContext, useState} from 'react'
 import {ToggleLanguage} from './toggleLanguage'
 import CV from "./lois_isnel.pdf"
+import CV_EN from "./Lois_Isnel_CV_EN.pdf"
 
 export default function Header() {
     const {language, setLanguage} = useContext(ToggleLanguage)
@@ -39,7 +40,7 @@ export default function Header() {
                 <p>{language==='English' ? "I really love computer science, and science in general. My goal is to use my knowledges and competencies in computer science in medicine. Because i like helping people, and i want to work for it, make people feels better." : "J'aime énormément l'informatique, et les sciences en général. Mon objectif est d'utiliser mes connaissances et mes compétences en informatique pour la médecine. Parceque j'aime aider les personnes, et je veux aider dans ce but, aider les personnes à se sentir mieux."}</p>
             </div>
             <div id="download_button">
-            <a href={CV} download="lois_isnel.pdf" tabIndex="-1">
+            <a href={language==='French'?CV:CV_EN} download="lois_isnel.pdf" tabIndex="-1">
                 <button>{language === 'English' ? "My CV" : "Mon CV"} <img src={download} alt="Download" /></button>
             </a>
             </div>
