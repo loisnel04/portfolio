@@ -58,7 +58,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div id="button">
-                    <button type="submit">Send</button>
+                    <button type="submit">{language==='French'?"Envoyer":"Send"}</button>
                 </div>
             </form>
 
