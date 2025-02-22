@@ -8,7 +8,11 @@ import work from "./img/programmation.png"
 import projet from "./img/projet.png"
 import contact from './img/contact.png'
 
+import {ToggleLanguage} from "./toggleLanguage"
+import { useContext } from "react"
+
 export default function Navbar() {
+    const {language} = useContext(ToggleLanguage)
     return (
         <div id="all_navbar">
             <a href="#header" id="Presentation">LI</a>
@@ -19,19 +23,19 @@ export default function Navbar() {
                 </a>
                 <a href="#Studies">
                     <img src={study} alt="Studies"></img>
-                    <span>Studies</span>
+                    <span>{language==='French'?"Études":"Studies"}</span>
                 </a>
                 <a href="#Work">
                     <img src={work} alt="Work"></img>                    
-                    <span>Work</span>
+                    <span>{language==='French'?"Travail":"Job"}</span>
                 </a>
                 <a href="#Project">
                     <img src={projet} alt="Project"></img>
-                    <span>Project</span>
+                    <span>{language==='French'?"Projet":"Project"}</span>
                 </a>
                 <a href="#nav_to_footer">
                     <img src={contact} alt="Contact me"></img>
-                    <span>Contact me</span>
+                    <span>Contact</span>
                 </a>
             </div>
         </div>
