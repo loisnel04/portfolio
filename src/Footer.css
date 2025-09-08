@@ -107,7 +107,7 @@ textarea{
     resize: none;
     height: 6rem;
     padding: 15px;
-    width: 34.3rem;
+    width: 85.4%;
 }
 
 input{
@@ -116,6 +116,7 @@ input{
     height: 3rem;
     text-indent: 15px;
     width: 36rem;
+    width: 90%;
 }
 
 input, textarea{
@@ -184,4 +185,11 @@ textarea::placeholder{
     background-color: #23009f;
     transition: all 0.2s ease;
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 430px) {
+
+    #contact{
+        max-width: 100%
+    }
 }

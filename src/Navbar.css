@@ -68,3 +68,31 @@
         margin-left: 2rem;
     }
 }
+
+@media screen and (max-width: 430px) {
+    #all_navbar{
+        width: 400px;
+        height: 60px;
+
+        #little_navbar{
+            width: 100px;
+            margin-left: 1.5rem;
+        }
+
+        img{
+            height:30px;
+            width: 30px;
+        }
+
+        a{
+            font-size: 10px;
+            margin: 2px;
+            padding: 0rem 1px 0rem 1px;
+            text-decoration: none;
+            margin: 10px;
+        }
+        #Presentation{
+            font-size: 40px;
+        }
+    }
+}

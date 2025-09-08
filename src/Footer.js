@@ -38,7 +38,7 @@ export default function Footer() {
             <br></br>
             <br></br>
             <h1 id="title_footer">{language==='French'?"Me contacter":"Contact me"}</h1>
-            <p id="info">{language==='French'?"Pour toutes questions ou informations supplémentaires, n'hésitez pas à me contacter":"Do not hesitate to contact me for any questions or furthers informations"}</p>
+            <p id="info">{language==='French'?"Pour toutes questions ou informations supplémentaires, n'hésitez pas à me contacter":"Contact me for any questions or furthers informations"}</p>
             
             <form onSubmit={sendForm}>
                 <div id="contact">
