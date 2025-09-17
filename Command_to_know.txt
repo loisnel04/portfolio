@@ -1,2 +1,3 @@
-Pour ré actualiser le site web avec les nouveaux push :
+Pour actualiser le site web avec les nouveaux push, run la commande suivante 
+à la racine du projet:
 npm run deploy
