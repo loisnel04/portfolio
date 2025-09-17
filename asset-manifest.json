@@ -1,37 +1,38 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.beb0cb58.css",
-    "main.js": "/portfolio/static/js/main.59df89b4.js",
+    "main.js": "/portfolio/static/js/main.d5d4914d.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
-    "static/media/Loïs Isnel CV.pdf": "/portfolio/static/media/Loïs Isnel CV.eed0e56f1a27f7216b5c.pdf",
+    "static/media/soundtools.png": "/portfolio/static/media/soundtools.d52bd13685e707e4b77c.png",
+    "static/media/Loïs Isnel CV.pdf": "/portfolio/static/media/Loïs Isnel CV.310fb01a700444416b09.pdf",
     "static/media/BNP-Paribas-Logo.png": "/portfolio/static/media/BNP-Paribas-Logo.596c9cf76b023f542f7b.png",
     "static/media/Tux.png": "/portfolio/static/media/Tux.29353b79cfc389275045.png",
-    "static/media/zoidberg.png": "/portfolio/static/media/zoidberg.55cfcde69070dce6d59b.png",
+    "static/media/homepedia.png": "/portfolio/static/media/homepedia.87d38c19d17082bf288c.png",
+    "static/media/taxidriver.png": "/portfolio/static/media/taxidriver.ec9d30a5d99f6c3b95ce.png",
     "static/media/React.png": "/portfolio/static/media/React.8cf15fe9a546ffb69e65.png",
     "static/media/angular.png": "/portfolio/static/media/angular.aae8c6b1f4b3896f9e20.png",
     "static/media/web.webp": "/portfolio/static/media/web.41e8c0eea442d8da00ad.webp",
     "static/media/Epitech.png": "/portfolio/static/media/Epitech.154df79bbd67522023ad.png",
     "static/media/LinkedIn_icon.svg.png": "/portfolio/static/media/LinkedIn_icon.svg.8bcc85f816de7e973275.png",
-    "static/media/EpicRoadTrip.png": "/portfolio/static/media/EpicRoadTrip.866dad2a4e62d8281ce1.png",
     "static/media/afmicado_logo.png": "/portfolio/static/media/afmicado_logo.667698c2342af7d44009.png",
     "static/media/study.png": "/portfolio/static/media/study.35d5202064bbb9cec782.png",
     "static/media/projet.png": "/portfolio/static/media/projet.9926afda780608f91457.png",
     "static/media/Jupyter.png": "/portfolio/static/media/Jupyter.3274ea14f0dc3b322f42.png",
+    "static/media/postgresql.png": "/portfolio/static/media/postgresql.17c7fc660c793b6f5258.png",
     "static/media/VS_codepng.png": "/portfolio/static/media/VS_codepng.c0e134c3bbf4bd018d4c.png",
     "static/media/feg.png": "/portfolio/static/media/feg.5874ee8c10e1572821bc.png",
     "static/media/contact.png": "/portfolio/static/media/contact.babc890bf0779ce1cba2.png",
     "static/media/logo_header.avif": "/portfolio/static/media/logo_header.497296fa324e8fa86467.avif",
-    "static/media/crypto.webp": "/portfolio/static/media/crypto.e4a2db353ee1eef61ebf.webp",
     "static/media/programmation.png": "/portfolio/static/media/programmation.c29ef1f335e5f30001d8.png",
     "static/media/Python.webp": "/portfolio/static/media/Python.d7914eabafafb1c9be1e.webp",
     "static/media/download.webp": "/portfolio/static/media/download.b7e1c235aff6e43e6f37.webp",
     "index.html": "/portfolio/index.html",
     "main.beb0cb58.css.map": "/portfolio/static/css/main.beb0cb58.css.map",
-    "main.59df89b4.js.map": "/portfolio/static/js/main.59df89b4.js.map",
+    "main.d5d4914d.js.map": "/portfolio/static/js/main.d5d4914d.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.beb0cb58.css",
-    "static/js/main.59df89b4.js"
+    "static/js/main.d5d4914d.js"
   ]
 }
