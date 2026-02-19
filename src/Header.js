@@ -5,7 +5,7 @@ import english_flag from "./img/drapeau-anglais.png"
 import download from './img/download.webp'
 import React, {useContext, useState} from 'react'
 import {ToggleLanguage} from './toggleLanguage'
-import CV from "./Loïs Isnel CV.pdf"
+import CV from "./Loïs Isnel CV - Graduate Software Engineer.pdf"
 
 export default function Header() {
     const {language, setLanguage} = useContext(ToggleLanguage)
@@ -35,13 +35,13 @@ export default function Header() {
                 <h3>{language==='French' ? "Bienvenue" : "Welcome"}.</h3>
                 <img src={computer} alt="computer"></img>
                 <div id="text">
-                    <p>{language==='English' ? "My name is Loïs Isnel, i am a junior developper, recently graduated with a Master’s degree in Software Architecture and Application Development from" : "Je m'appelle Loïs, je suis un développeur junior, récemment diplomé du Master Architecte Logicielle, Développeur d'Application de l'école d'informatique "} <a href="https://www.epitech.eu/ecole-informatique-marseille/" target="_blank" rel="noreferrer">Marseille Epitech</a> {language==='French' ? 'et anciennement alternant au sein de l\'entreprise' : 'and formerly an apprentice at'} <a href="https://afmicado.com/" target="_blank" rel="noreferrer">Micado {language==="English" ? "company" : ""}</a>.</p>
-                    <p>{language==='English' ? "I learn AI, web/Application development, and Big Data to become a Software Engineer in one of this domain." : "J'apprends le développement d'IA, de site web et d'application et le Big Data pour devenir un Ingénieur Logiciel dans l'un de ces domaines."}</p>
-                    <p>{language==='English' ? "I have a deep passion for computer science and science in general. My goal is to apply my knowledge and skills in computer science to the field of medicine. I love helping people and aspire to contribute to their well-being by using technology to improve healthcare." : "Je suis passioné par l'informatique, et les sciences en général. Mon objectif est d'utiliser mes connaissances et mes compétences en informatique pour la médecine. J'aime aider les gens et j’aspire à contribuer à leur bien-être en utilisant la technologie pour améliorer les soins de santé."}</p>
+                    <p>{language==='English' ? "My name is Loïs Isnel, I am a junior developper, recently graduated with a Master’s degree in Software Architecture and Application Development from" : "Je m'appelle Loïs, je suis un développeur junior, récemment diplomé du Master Architecte Logicielle, Développeur d'Application de l'école d'informatique "} <a href="https://www.epitech.eu/ecole-informatique-marseille/" target="_blank" rel="noreferrer">Marseille Epitech</a> {language==='French' ? 'et anciennement alternant au sein de l\'entreprise' : 'and formerly an apprentice at'} <a href="https://afmicado.com/" target="_blank" rel="noreferrer">Micado {language==="English" ? "company" : ""}</a>.</p>
+                    <p>{language==='English' ? "I learn AI, web/Application development, and Big Data to become a Software Engineer." : "J'apprends le développement d'IA, de site web et d'application et le Big Data pour devenir un Ingénieur Logiciel."}</p>
+                    <p>{language==='English' ? "I have a deep passion for computer science and software engineering. My goal is to use my knowledge and skills in computer science to help people. I aspire to have a significant impact in software development for a company." : "Je suis passioné par l'informatique et l'ingénierie logiciel. Mon objectif est d'utiliser mes connaissances et mes compétences en informatique pour aider les personnes. J'aspire à avoir un grand impact dans le développement de logiciels pour une entreprise."}</p>
                 </div>
             </div>
             <div id="download_button">
-            <a href={CV} download="lois_isnel.pdf" tabIndex="-1">
+            <a href={CV} download="lois_isnel_cv.pdf" tabIndex="-1">
                 <button>{language === 'English' ? "My CV" : "Mon CV"} <img src={download} alt="Download" /></button>
             </a>
             </div>
